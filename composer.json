@@ -12,6 +12,15 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "hirak/prestissimo": "^0.3"
+        "hirak/prestissimo": "^0.3",
+        "composer-plugin-api": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Damoon\\Cito\\": "src/"
+        }
+    },
+    "extra": {
+        "class": "Damoon\\Cito\\Plugin"
     }
 }
