@@ -1,0 +1,15 @@
+{
+    "name": "damoon/composer-cache-proxy",
+    "description": "redirect https dist package fetching to a local http proxy cache",
+    "type": "composer-plugin",
+    "keywords": ["cache", "install", "speedup"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Sauer",
+            "email": "davedamoon@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
