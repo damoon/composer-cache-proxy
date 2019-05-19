@@ -1,5 +1,5 @@
 {
-    "name": "damoon/composer-cache-proxy",
+    "name": "damoon/cito",
     "description": "redirect https dist package fetching to a local http proxy cache",
     "type": "composer-plugin",
     "keywords": ["cache", "install", "speedup"],
