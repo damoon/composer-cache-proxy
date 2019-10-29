@@ -51,7 +51,7 @@ if (!function_exists("\Hirak\Prestissimo\curl_setopt_array")) {
         };
 
         $url = getenv("CITO_SERVER") . $prefixCitoServer($options[CURLOPT_URL]);
-        if (getenv("DEBUG")) {
+        if (getenv("CITO_DEBUG")) {
             echo "hijacked: " . $options[CURLOPT_URL] . " calling " . $url . "\n";
         }
         $options[CURLOPT_URL] = $url;
